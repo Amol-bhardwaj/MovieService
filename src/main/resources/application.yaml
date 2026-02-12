@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: MovieService
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/moviedb
+    username: postgres
+    password: yourpassword
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+omdb:
+  api:
+    key: your_omdb_api_key
